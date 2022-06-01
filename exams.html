@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>Exams!!
+</title>
+<script>
+function despacito()
+{
+	var marks=0, qsolv=0;
+	if(document.getElementById('high').checked || document.getElementById('long').checked || document.getElementById('none').checked )
+	{
+		marks=marks-1;
+		qsolv++;
+	}
+	
+	if(document.getElementById('large').checked)
+	{
+		marks=marks+2;
+		qsolv++;
+	}
+
+	if(document.getElementById('eur').checked || document.getElementById('asia').checked || document.getElementById('aus').checked )
+	{
+		marks=marks-1;
+		qsolv++;
+	}
+	
+	if(document.getElementById('afr').checked)
+	{
+		marks=marks+2;
+		qsolv++;
+	}
+	
+	if(document.getElementById('phy').checked || document.getElementById('eco').checked || document.getElementById('lit').checked )
+	{
+		marks=marks-1;
+		qsolv++;
+	}
+	
+	if(document.getElementById('all').checked)
+	{
+		marks=marks+2;
+		qsolv++;
+	}
+	
+	if(document.getElementById('lab').checked || document.getElementById('ku').checked || document.getElementById('dem').checked )
+	{
+		marks=marks-1;
+		qsolv++;
+	}
+	
+	if(document.getElementById('naz').checked)
+	{
+		marks=marks+2;
+		qsolv++;
+	}
+	
+	if(document.getElementById('pol').checked || document.getElementById('sho').checked || document.getElementById('sno').checked )
+	{
+		marks=marks-1;
+		qsolv++;
+	}
+	
+	if(document.getElementById('hor').checked)
+	{
+		marks=marks+2;
+		qsolv++;
+	}
+	if( qsolv!=5)
+	{
+		alert("Please Attempt All Question!!")
+	}
+	if(qsolv==5)
+	{
+		if(marks==10)
+		{
+			alert("Congratulation! You Successfully Answered All Question Correctly! Your Score is Perfect '10'")
+			
+		}
+		else
+		{
+			alert("Your Score is"+" "+marks+" "+ "Thanks For Taking The Exam!")
+		}
+	
+	}
+}
+</script>
+<style>
+body{
+color:white;
+font-family:"comic sans ms";
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(book3.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed
+	;
+}
+.intro{
+position:relative;
+top:103px;
+right:35px;
+font-size:15px;
+}
+.form{
+position:relative;
+top:100px;
+left:100px;
+
+font-size:15px;
+}
+.bt1n
+{
+	color:WHITE;
+	background-color:transparent;
+	font-family:"comic sans ms";
+	PADDING:5PX 20PX;
+	font-size:18
+	px;
+	position:relative;
+	left:490px;
+	top:100px
+}
+</style>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<div class="row">
+		<div class="logo">
+		<img src="logo.png">
+		</div>
+	</div>
+	<ul class="main-nav1">
+		<li style="position:relative; bottom:29px;"class="active1"><a href="index.html"> HOME </a></li>
+	</ul>
+	<div class="title">
+			<h1 style="position:relative; bottom:10px;"><b>E-learning Portal</h1></b>
+	
+	</div>
+    <p class="intro"><b> Multiple choice Type Questions Based on General Knowledge<br>5 Question Will Be Asked For a Total of 10 Marks With Negative Marking.<br>10 Minutes Will Be Alloted For Completing The Exam.</b><p><br>
+	<form class="form" name="Myform">
+	Q1:Grand Central Terminal,Park Avenue,New York is World's?<br>
+	<input type="radio" name="Q1" id="large">Largest Railway Station<br>
+	<input type="radio" name="Q1" id="high">Hightest Railway Station<br>
+	<input type="radio" name="Q1" id="long">Longest Railway Station<br>
+	<input type="radio" name="Q1" id="none">None of the Above<br><br>
+	
+	Q2:Eritrea,Which became the 182nd member of the UN in 1993,is in the continent?<br>
+	<input type="radio" name="Q2" id="asia">Asia<br>
+	<input type="radio" name="Q2" id="afr">Africa<br>
+	<input type="radio" name="Q2" id="eur">Europe<br>
+	<input type="radio" name="Q2" id="aus">Australia<br><br>
+	
+	Q3:For which of the following disciplines is Nobel Prize Awarded?<br>
+	<input type="radio" name="Q3" id="phy">Physics and Chemistry<br>
+	<input type="radio" name="Q3" id="eco">Physiology and Economics<br>
+	<input type="radio" name="Q3" id="lit">Literature and Peace<br>
+	<input type="radio" name="Q3" id="all">All of the Above<br><br>
+	
+	Q4:Hitler Party which came into power in 1933 is known as?<br>
+	<input type="radio" name="Q4" id="lab">Labour Party<br>
+	<input type="radio" name="Q4" id="naz">Nazi Party<br>
+	<input type="radio" name="Q4" id="ku">Ku-Klux-Klan<br>
+	<input type="radio" name="Q4" id="dem">Democratic Party<br><br>
+	
+	Q5:Epsom(England) is tyhe place associated with<br>
+	<input type="radio" name="Q5" id="hor">Horse Racing<br>
+	<input type="radio" name="Q5" id="pol">polo<br>
+	<input type="radio" name="Q5" id="sho">Shooting<br>
+	<input type="radio" name="Q5" id="sno">Snooker<br><br>
+	
+	
+	
+	</form>
+
+	
+	<button class="bt1n" onclick="despacito()">Result</button>
+	
+	
+	
+
+</body>
+</html>

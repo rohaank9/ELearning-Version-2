@@ -1,0 +1,490 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+
+HEADER{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(book10.jpg);
+	height:100vh;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:centre;
+	
+	
+}
+
+
+.main-nav
+{
+	float:right;
+	list-style:none;
+	margin-top:30px;
+}
+
+.main-nav li
+{
+	display:inline-block;
+}
+
+.main-nav li a
+{
+	color:white;
+	text-decoration:none;
+	padding:5px 20px;
+	font-family:"Comic Sans MS",cursive,sans-serif;
+	font-size:15px;
+	
+}
+.main-nav li.active a
+{
+	border:2px solid white;
+}
+.main-nav li a:hover
+{
+	border:2px solid white;
+}
+.logo img
+{
+	width:150px;
+	height:auto;
+	float:left;
+	
+}
+
+.row
+{
+	max-width:1200px;
+	margin:auto;
+}
+.title
+{
+	float:left;
+	list-style:none;
+	margin-top:15px;
+}
+h1
+{
+	text-decoration:none;
+	font-family:"Comic sans ms";
+	color:white;
+}
+h2
+{
+
+	font-family:"Comic Sans MS";
+	color:white;
+	
+}
+.logintitle 
+{
+	color:white;
+	font-family:"Comic Sans MS",cursive,sans-serif; 
+	position:absolute;
+	margin-top:75px;
+	margin-left:145px;
+	font-size:50px;
+	
+	
+}
+.login
+{
+	font-size:20px;
+	COLOR:white;
+	font-family:"Comic Sans MS",cursive,sans-serif; 
+	position:absolute;
+	margin-top:150px;
+	margin-left:100px;
+	
+}
+.reset
+{
+	font-size:18px;
+	color:white;
+	margin:auto;
+	margin-left:26px;
+	background-color:transparent;
+	padding:5px 10px;
+	font-family:"comic sans ms"
+	
+}
+.submit
+{
+	font-size:18px;
+	color:white;
+	margin:auto;
+	margin-left:40px;
+	background-color:transparent;
+	padding:5px 10px;
+	font-family:"comic sans ms"
+}
+.notices li a
+{
+
+	
+	float:right;
+	color:white;
+	font-family:"Comic Sans MS";
+	margin-right:75px;
+	font-size:15px;
+	padding:5px 10px;
+	
+}
+.notices
+{
+	float:right;
+	
+}
+.notices li a:hover
+{
+	border:2px solid white;
+}
+.remains li a
+{	
+	padding:5px 10px;
+	font-size:18px;
+	text-decoration:none;
+	font-family:"Comic Sans MS";
+	color:white;
+	position:absolute;
+	margin-top:235px;
+	margin-left:1150px;
+	
+}
+.remains li a:hover
+{
+	border:2px solid white;
+}
+.btn
+{
+	
+	color:white;
+	font-size:18px;
+	margin:auto;
+	margin-left:80px;
+	background-color:transparent;
+	padding:5px 10px;
+	font-family:"comic sans ms"
+}
+.tablecontent
+{
+	padding:5px 10px;
+	color:white;
+	position:absolute;
+	margin-top:150px;
+	margin-left:200px;
+	
+}
+.tablex
+{
+	padding:5px 10px;
+	color:white;
+	font-family:"comic sans ms";
+	border:2px solid white;
+}
+.main-nav1
+{
+	float:center
+}
+.main-nav1 li a
+{
+	padding:5px 20px;
+	color:white;
+	font-family:"comic sans ms";
+	border:2px solid white;
+}
+.main-nav1 li.active1 a
+{
+	position:absolute;
+	margin-top:110px;
+	margin-left:400px;
+}
+.TTWALL2
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(book1.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position:centre;
+}
+.TTWALL3
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(books2.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position:centre;
+}
+.TTWALL4
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(book3.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position:centre;
+}
+.contactc
+{
+	padding:5px 20px;
+	font-size:20px;
+	color:white;
+	font-family:"comic sans ms";
+	position:absolute;
+	margin-top:175px;
+	margin-left:375px;
+}
+.TTWALL5
+{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(book4.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position:centre;
+}
+.TTWALL6
+{
+
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(book5.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position:centre;
+}
+.feedtitle
+{
+	font-size:20px;
+	color:white;
+	font-family:"comic sans ms";
+	position:absolute;
+	margin-top:150px;
+	margin-left:575px;
+}
+.feedform1
+{
+	font-size:20px;
+	color:white;
+	font-family:"comic sans ms";
+	margin-left:-14px;
+	margin-top:5px;
+	
+}
+.fullform1
+{
+	font-size:20px;
+	color:white;
+	font-family:"comic sans ms";
+	position:absolute;
+	margin-top:190px;
+	margin-left:505px;
+}
+.di
+{
+	font-size:20px;
+	color:white;
+	font-family:"comic sans ms";
+	margin-top:260px;
+	margin-left:533px;
+}
+.textar
+{
+	font-family:"comic sans ms";
+	font-size:15px;
+	color:white;
+	background-color: transparent;
+	border:1px solid white;
+	margin-top:10px;
+	margin-left:560px;
+}
+.feedform2
+{
+	font-family:"comic sans ms";
+	font-size:18px;
+	color:white;
+	margin-top:10px;
+	margin-left:525px;
+}
+.submit1
+{
+	font-family:"comic sans ms";
+	font-size:18px;
+	color:white;
+	background-color:transparent;
+	padding:5px 20px;
+	margin-top:15px;
+	margin-left:85px;
+	
+}
+.feedform3
+{
+	font-family:"comic sans ms";
+	font-size:18px;
+	color:white;
+}
+.TTWALL7
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(book6.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position:centre;
+}
+.TTWALL8
+{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(book7.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position:centre;
+}
+.TTWALLv
+{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(book8.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+.faqtitle
+{
+	font-family:"comic sans ms";
+	font-size:22px;
+	color:white;
+	margin-top:145px;
+	margin-left:525px;
+}
+.q1
+{
+	font-family:"comic sans ms";
+	font-size:20px;
+	color:white;
+	margin-left:350px;
+}
+.q2
+{
+	font-family:"comic sans ms";
+	font-size:20px;
+	color:white;
+	margin-left:300px;
+}
+.q3
+{
+	font-family:"comic sans ms";
+	font-size:20px;
+	color:white;
+	margin-left:330px;
+}
+.q4
+{
+	font-family:"comic sans ms";
+	font-size:20px;
+	color:white;
+	margin-left:305px;
+}
+.q5
+{
+	font-family:"comic sans ms";
+	font-size:20px;
+	color:white;
+	margin-left:345px;
+}
+#SI
+{
+	font-family:"comic sans ms";
+	color:white;
+	background-color:transparent;
+	border:1px solid white;
+}
+#SI2
+{
+	font-family:"comic sans ms";
+	color:white;
+	background-color:transparent;
+	border:1px solid white;
+	margin-left:3px;
+}
+#loginbox
+{
+	font-family:"comic sans ms";
+	color:white;
+	background-color:transparent;
+}
+#passwordbox
+{
+	font-family:"comic sans ms";
+	color:white;
+	background-color:transparent;
+}
+.sighome li.h1 a
+{
+	font-family:"comic sans ms";
+	color:white;
+	padding:5px 15px;
+	border:2px solid white;
+	text-decoration:none;
+	font-size:20px;
+	position:absolute;
+	margin-left:350px;
+	margin-top:20px;
+}
+#mi
+{
+	
+	font-family:"comic sans ms";
+	color:white;
+	
+}
+.mike
+{
+	font-size:20px;
+	font-family:"comic sans ms";
+	color:white;
+	
+	margin-left:460px;
+	margin-top:90px;
+	
+	
+}
+.sigtitle
+{
+	position:relative;
+	font-size:25px;
+	font-family:"comic sans ms";
+	color:white;
+	padding:10px 25px;
+	top:115px;
+	left:85px;
+}
+.x1
+{
+	position:relative;
+	left:10px;
+}
+.x2
+{
+	position:relative;
+	left:10px;
+	top:10px;
+}
+.x3
+{
+	position:relative;
+	left:10px;
+	top:20px;
+}
+.x4
+{
+	position:relative;
+	left:10px;
+	top:30px;
+}
+.x5
+{
+	position:relative;
+	left:10px;
+	top:40px;
+}
+#mijias
+{
+	position:relative;
+	left:110px;
+	top:200px;
+	font-size:15px;
+	font-family:"comic sans ms";
+	color:white;
+	padding:5px 10px;
+	background-color:transparent;
+}

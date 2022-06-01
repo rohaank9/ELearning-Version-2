@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+
+</style>
+<script>
+function  valform1()
+{
+	var x = document.forms["loginform"]["uid"].value;
+	var y = document.forms["loginform"]["password"].value;
+	if (x=="")
+	{
+		alert("Login Id Should be not be empty");
+		return false;
+	}
+	if (y=="")
+	{
+		alert("Password Should be not be empty");
+		return false;
+	}
+}
+
+</script>
+<title>E-LEARNING PORTAL
+</title>
+<link href="style.css" rel="stylesheet" type"text/css">
+</head>
+<body>
+<HEADER>
+
+		<div class="row">
+		<div class="logo">
+		<img src="logo.png">
+		</div>
+		<ul class="main-nav">
+		<li class="active"><a href="index.html"> HOME </a></li>
+		<li><a href="exams.html"> EXAMS </a></li>
+		<li><a href="results.html"> RESULTS </a></li>
+		<li><a href="contact.html"> CONTACT US </a></li> 
+		
+		</div>
+		</ul>
+		
+		<div class="title">
+			<h1><b>E-learning Portal</h1></b>
+		<hr>
+		</div>
+		<hr>
+<h3><font face="Segoe Print" color="white"><marquee>Education is the key to the future: You've heard it a million times, and it's not wrong. Educated people have higher wages and lower unemployment rates, and better-educated countries grow faster and innovate more than other countries. But going to college is not enough. You also have to study the right subjects.</marquee></font></h3>
+<br>
+		
+		<div class="logintitle">
+		LOG IN
+		</DIV><br>
+		
+		<div class="login">
+		<form name="loginform" onsubmit="return valform1() "action="myserver.php" method="post">
+		 Login ID:
+		<input type="textfield" id="loginbox" name="uid"><BR><br>
+		 Password:
+		<input type="textfield" id="passwordbox" name="password"> <br><br>
+		<input type="submit" name="submit" value="Submit" class="submit" >
+		<input type="RESET" name="RESET" class="reset"> <br><BR>
+		<input type="button" value="Sign Up" class="btn"><a href="signup.html"></a></button>
+		</div>
+		
+		<div  class="notices">
+		<h2>Notices</h2>
+		<marquee behavior=scroll scrollamount="2" direction="up">
+		<ul>
+		<li><a href="seittt.html"><b>SE-IT Time Table</b></a></li><br>
+		<li><a href="teittt.html"><b>TE-IT Time Table</b></a></li><br>
+		<li><a href="bettt.html"><b>BE-IT Time Table</b></a></li><br>
+		</marquee>
+		</div>
+		
+		<div class="remains">
+		<ul>
+		<li><a href="feedback.html"><b>Feedback</b></a></li><br>
+		<li><a href="F.A.Q.html"><b>F.A.Q</b></a></li><br>
+		<li><a href="about.html"><b>ABOUT</b></a></li><br>
+		</div>
+		
+</HEADER>		
+
+
+</body>
+</html>
